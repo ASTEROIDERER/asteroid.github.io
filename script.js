@@ -50,10 +50,10 @@ noButton.addEventListener("click", function () {
 
   // 图片变化（前 5 次变化）
   if (clickCount === 1) mainImage.src = "images/bc964a324a5613e729664feb40af572.png"; // 震惊
-  if (clickCount === 2) mainImage.src = "images/bc964a324a5613e729664feb40af572.png"; // 思考
-  if (clickCount === 3) mainImage.src = "images/angry.png"; // 生气
+  if (clickCount === 2) mainImage.src = "images/bf77ca0689204ae2c8b0c57bc2d05ea.png"; // 思考
+  if (clickCount === 3) mainImage.src = "images/bf77ca0689204ae2c8b0c57bc2d05ea.png"; // 生气
   if (clickCount === 4) mainImage.src = "images/6f1f4394d23d9aa2469f7ef6f21277a.png"; // 哭
-  if (clickCount >= 5) mainImage.src = "images/crying.png"; // 之后一直是哭
+  if (clickCount >= 5) mainImage.src = "images/6f1f4394d23d9aa2469f7ef6f21277a.png"; // 之后一直是哭
 });
 
 // Yes 按钮点击后，进入表白成功页面
