@@ -19,7 +19,7 @@ let clickCount = 0; // 记录点击 No 的次数
 
 // No 按钮的文字变化
 const noTexts = [
-  "？你认真的吗…",
+  "真的要选这个嘛,QAQ…",
   "再想想嘛，姨姨？",
   "不要选这个嘛！ ",
   "我会很伤心…",
@@ -57,7 +57,7 @@ noButton.addEventListener("click", function () {
 });
 
 // Yes 按钮点击后，进入表白成功页面
-const loveTest = `!!!喜欢姨姨!! ( >᎑<)♡︎ᐝ  ${
+const loveTest = `!!!我喜欢姨姨啦!! ( >᎑<)♡︎ᐝ  ${
   username ? `${safeUsername}  ♡︎ᐝ(>᎑< )` : ""
 }`;
 
